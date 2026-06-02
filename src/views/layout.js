@@ -1,3 +1,4 @@
+
 export function layout(titulo, contenido) {
   return `
     <!DOCTYPE html>

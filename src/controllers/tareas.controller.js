@@ -5,6 +5,7 @@ import { nuevaTareaPage } from "../views/pages/nuevaTarea.page.js";
 import { editarTareaPage } from "../views/pages/editarTarea.page.js";
 import { error404Page } from "../views/pages/error404.page.js";
 
+
 export function listarTareas(req, res) {
   const estado = req.query.estado;
   const mensaje = req.query.mensaje;
